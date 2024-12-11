@@ -1,0 +1,9 @@
+{
+  "item.pbmod.iphone": "Iphone",
+  "item.pbmod.visor": "Visor",
+
+  "block.pbmod.drip_block": "Drip Block",
+  "block.pbmod.circuit_block": "Circuit Block",
+
+  "itemgroup.pbmod.future_items": "Future Items"
+}

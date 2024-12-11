@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "pbmod:block/drip_block"
+    }
+  }
+}
