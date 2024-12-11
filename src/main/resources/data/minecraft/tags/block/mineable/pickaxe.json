@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "pbmod:circuit_block",
+    "pbmod:drip_block",
+    "pbmod:lithium_ore"
+  ]
+}

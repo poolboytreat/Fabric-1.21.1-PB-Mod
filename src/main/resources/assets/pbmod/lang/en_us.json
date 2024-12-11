@@ -1,7 +1,10 @@
 {
+  "item.pbmod.raw_lithium": "Raw Lithium",
+  "item.pbmod.lithium_ingot": "Lithium Ingot",
   "item.pbmod.iphone": "Iphone",
   "item.pbmod.visor": "Visor",
 
+  "block.pbmod.lithium_ore": "Lithium Ore",
   "block.pbmod.drip_block": "Drip Block",
   "block.pbmod.circuit_block": "Circuit Block",
 

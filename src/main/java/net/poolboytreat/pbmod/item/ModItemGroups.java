@@ -17,10 +17,13 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.IPHONE))
                     .displayName(Text.translatable("itemgroup.pbmod.future_items"))
                     .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RAW_LITHIUM);
+                        entries.add(ModItems.LITHIUM_INGOT);
                         entries.add(ModItems.IPHONE);
                         entries.add(ModItems.VISOR);
                         entries.add(ModBlocks.CIRCUIT_BLOCK);
                         entries.add(ModBlocks.DRIP_BLOCK);
+                        entries.add(ModBlocks.LITHIUM_ORE);
                     })
                     .build());
 

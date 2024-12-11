@@ -10,6 +10,8 @@ public class ModItems {
 
     public static final Item IPHONE = registerItem("iphone", new Item(new Item.Settings()));
     public static final Item VISOR = registerItem("visor", new Item(new Item.Settings()));
+    public static final Item RAW_LITHIUM = registerItem("raw_lithium", new Item(new Item.Settings()));
+    public static final Item LITHIUM_INGOT = registerItem("lithium_ingot", new Item(new Item.Settings()));
 
 
     private static Item registerItem(String name, Item item) {
