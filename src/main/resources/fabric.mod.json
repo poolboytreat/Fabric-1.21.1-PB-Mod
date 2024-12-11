@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "pbmod",
+	"version": "${version}",
+	"name": "PB Mod",
+	"description": "1.21.1 Mod by Poolboytreat following Kaupenjoe",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pbmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.poolboytreat.pbmod.PBMod"
+		],
+		"fabric-datagen": [
+			"net.poolboytreat.pbmod.PBModDataGenerator"
+		],
+		"client": [
+			"net.poolboytreat.pbmod.PBModClient"
+		]
+	},
+	"mixins": [
+		"pbmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
